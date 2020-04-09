@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (min-width: 970px) {
+    .card {
+        max-width: 308px;
+    }
+}
+
+header {
+    padding: 3px 0;
+    box-shadow: 0px 0px 12px rgba(38, 38, 38, 0.16);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    background-color: #fff;
+}
+
+.container {
+    max-width: 986px;
+}
+
+.navbar {
+    padding-left: 0;
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+}
+
+.btn-default {
+    background-color: #fff;
+    border: 2px solid #e0e0e0;
+    color: #1D1D1D;
+    width: 78px;
+    height: 40px;
+}
+
+.sell-bag {
+    margin-left: 25px;
+}
+
+.form-control {
+    border: 0;
+    border-bottom: 2px solid #757575;
+    margin: 50px 0 55px 0;
+    border-radius: 0;
+    color: #626262;
+    padding: 0;
+}
+
+.card {
+    padding: 0;
+    max-width: 32.3%;
+    border: 0;
+    margin-bottom: 35px;
+}
+
+.card-body {
+    padding: 1.25em 0 0 0;
+}
+
+.card-header {
+    margin-bottom: 25px;
+}
+
+.card-text {
+    color: #626262;
+}
