@@ -1,23 +1,11 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 
-@media screen and (min-width: 970px) {
-    .card {
-        max-width: 308px;
-    }
-}
-
-@media (min-width: 575px) and (max-width: 991px) {
-    .card {
-        max-width: 49%;
-    }    
-}
-@media screen and (max-width: 615px) {
-    .card-text {
-        font-size: 0.9em;
-    }
+body {
+    color: #1d1d1d;
 }
 
 header {
@@ -70,7 +58,6 @@ header {
     padding: 0;
     border: 0;
     margin-bottom: 35px;
-
 }
 
 .card-body {
@@ -83,4 +70,198 @@ header {
 
 .card-text {
     color: #626262;
+}
+
+footer {
+    background-color: #262626;
+}
+
+.title {
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 50px;
+    padding: 0;
+}
+
+hr{
+    background-color: #7d7d7d;
+}
+
+.footer__main {
+    padding-bottom: 25px;
+}
+
+.feedback-lang {
+    margin-right: 95px;
+}
+
+.select__block {
+    position: relative;  
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 10px 20px 10px 45px;
+    border: 0;
+    color: #fff;
+    font-size: 13px;
+    background-color: #3B3B3B;
+    width: 100%;
+}
+
+
+
+.select__block:focus {
+    outline: none;
+}
+
+.select-lang {
+    display: flex;
+    position: relative;
+    padding: 0;
+    margin-top: 33px;
+}
+
+.select-lang::before {
+    content: url('/img/world.svg');
+    pointer-events: none;
+    position: absolute;
+    top: 27%;
+    z-index: 2;
+    left: 15px;
+    height: 16px;
+}
+
+.select-lang::after {
+    content: url('/img/Shape.png');
+    pointer-events: none;
+    position: absolute;
+    right: 10px;
+    top: 18%;
+}
+
+.feedback {
+    margin-top: 33px;
+}
+
+.feedback__tag {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 17px;
+}
+
+.feedback__tag span{
+    color: #49A144;
+    margin-right: 2px;
+}
+
+.feedback__social {
+    display: flex;
+    padding: 0;
+}
+
+.feedback__social a {
+    margin-right: 8px;
+}
+
+.feedback__social a:first-child {
+    margin-right: 12px;
+}
+
+.about-list {
+    color: #fff;
+    font-size: 13px;
+    list-style: none;
+    margin-top: 40px;
+}
+
+.about-list li {
+    margin-top: 23px;
+}
+
+a {
+    color: #fff;   
+}
+
+a:hover {
+    color: #49A144;
+    border-bottom: 0;
+    text-decoration: none;
+}
+
+.load-app {
+    padding-bottom: 25px;
+    justify-content: center;
+}
+
+.load-app img:first-child{
+    margin-right: 37px;
+    margin-left: 15px;
+}
+
+.load-app__line {
+    padding-bottom: 25px;
+}
+
+.privacy__policy {
+    color: #fff;
+    font-size: 11px;
+    padding-bottom: 20px;
+}
+
+.button-up {
+    width: 80px;
+    height: 80px;
+    background-color: #59BD5A;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    right: 15px;
+    bottom: 25px;
+}
+
+/* Styles for restaurant card */
+
+#restaurant__info {
+    background: url('/img/Restaurant-hero.png') no-repeat center top / cover;
+}
+
+.card__info {
+    display: flex;
+}
+
+@media screen and (min-width: 970px) {
+    .card {
+        max-width: 308px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 950px) {
+    .load-app {
+        padding-left: 13%;
+    }    
+}
+@media (min-width: 575px) and (max-width: 991px) {
+    .card {
+        max-width: 49%;
+    }    
+}
+@media screen and (max-width: 615px) {
+    .card-text {
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .privacy__policy {
+        flex-direction: column;
+    }
+    .footer__main {
+        flex-direction: column;
+    }
+    .left-list {
+        margin-bottom: 0;
+    }
+    .right-list {
+        margin-top: 0;
+    }
 }

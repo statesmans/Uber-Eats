@@ -6,7 +6,10 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" media="screen, 3d-glasses, print and resolution > 90dpi" href="...">
     <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/Restaurant.css">
 </head>
 <body>
     <header>
@@ -26,114 +29,100 @@
             </div>
         </div>
     </header>
-    <section id="search">
+    <section id="restaurant__info">
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 col-md-12 col-lg-12">
-                    <div class="md-form active-cyan-2 border-bottom-0">
-                        <input class="form-control" type="text" placeholder="Поиск по ресторанам и кухням" aria-label="Search">
+                <div class=" card-main col-lg-5 col-md-7 col-sm-7 col-11">
+                    <h1 class="card-title">Трактир «Пушкин»</h1>
+                    <div class="restaurant__info">
+                        <p class="card-text col-md-6 col-sm-6">₽₽₽ • Европейская</p>
+                        <p class="card-time">40 - 50 мин</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section id="card">
+    <section id="filter">
+        <div class="container">
+            <div class="row">
+                <div class="filter col-lg-8 col-md-11 d-none d-sm-block">
+                    <ul class="filter__menu">
+                        <li class="menu__item"><a href="#">Закуски</a></li>
+                        <li class="menu__item"><a href="#">Салаты</a></li>
+                        <li class="menu__item"><a href="#">Супы</a></li>
+                        <li class="menu__item"><a href="#">Горячие блюда</a></li>
+                        <li class="menu__item"><a href="#">Гарниры</a></li>
+                        <li class="menu__item"><a href="#">Десерты</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
-                    <h2 class="card__header">Рестораны в Москве</h2>
+                    <h2 class="assortment__header">Закуски</h2>
                 </div>
-                <div class="card__block d-flex flex-wrap justify-content-between col-xl-12">
-                    <div class="card col-xl-4 col-md-6 col-xs-12" style="width: 18rem;">
-                        <img class="card-img-top" src="img/1.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Макдоналдс — Газетный</h5>
-                            <p class="card-text">₽₽ • Бургеры</p>
-                            <p class="card-time">
-                                25 - 35 мин
+                <div class="assortment__block col-xl-12 col-md-12 col-xs-12">
+                    <div class="assortment__card col-xl-6 col-md-12 col-xs-12" ">
+                        <div class="assortment__card-body">
+                            <div class="card__body-main">
+                                <h5 class="assortment__card-title">Сельдь на бородинском хлебе</h5>
+                                <p class="assortment__card-text">С яйцом и огурцом</p>
+                            </div>
+                            <p class="assortment__card-price">
+                                240 ₽
                             </p>
                         </div>
+                        <img class="food__card-img" src="img/Restaurant/1.1.png" alt="Card image cap">
                     </div>
-                    <div class="card col-xl-4 col-md-6 col-xs-12" style="width: 18rem;">
-                        <img class="card-img-top" src="img/2.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">DimSum & Co — ЦДМ</h5>
-                            <p class="card-text">₽ • Японская • Китайская • Азиатская</p>
-                            <p class="card-time">
-                                40 - 50 мин
+                    <div class="assortment__card col-xl-6 col-md-12 col-xs-12" ">
+                        <div class="assortment__card-body">
+                            <h5 class="assortment__card-title">Соленья ассорти</h5>
+                            <p class="assortment__card-price">
+                                320 ₽
                             </p>
                         </div>
+                        <img class="food__card-img" src="img/Restaurant/1.2.png" alt="Card image cap">
                     </div>
-                    <div class="card col-xl-4 col-md-6 col-xs-12" style="width: 18rem;">
-                        <img class="card-img-top" src="img/3.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">ДвижОК — Манежная</h5>
-                            <p class="card-text">₽ • Американская • Европейская</p>
-                            <p class="card-time">
-                                35 - 45 мин
+                    <div class="assortment__card col-xl-6 col-md-12 col-xs-12">
+                        <div class="assortment__card-body">
+                            <h5 class="assortment__card-title">Грибы маринованные</h5>
+                            <p class="assortment__card-price">
+                                300 ₽
                             </p>
                         </div>
+                        <img class="food__card-img" src="img/Restaurant/1.3.png" alt="Card image cap">
                     </div>
-                    <div class="card col-xl-4 col-md-6 col-xs-12" style="width: 18rem;">
-                        <img class="card-img-top" src="img/4.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">НЯ — NHA</h5>
-                            <p class="card-text">₽₽ • Вьетнамская</p>
-                            <p class="card-time">
-                                30 - 40 мин
+                    <div class="assortment__card col-xl-6 col-md-12 col-xs-12"">
+                        <div class="assortment__card-body">
+                            <h5 class="assortment__card-title">Сало домашнее с горчицей</h5>
+                            <p class="assortment__card-price">
+                                320 ₽
                             </p>
                         </div>
+                        <img class="food__card-img" src="img/Restaurant/1.4.png" alt="Card image cap">
                     </div>
-                    <div class="card col-xl-4 col-md-6 col-xs-12" style="width: 18rem;">
-                        <img class="card-img-top" src="img/5.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Точка Дзы — Цветной</h5>
-                            <p class="card-text">₽₽ • Вьетнамская</p>
-                            <p class="card-time">
-                                40 - 50 мин
+                    <div class="assortment__card col-xl-6 col-md-12 col-xs-12"">
+                        <div class="assortment__card-body">
+                            <h5 class="assortment__card-title">Малосольная семга</h5>
+                            <p class="assortment__card-price">
+                                390 ₽
                             </p>
                         </div>
+                        <img class="food__card-img" src="img/Restaurant/1.5.png" alt="Card image cap">
                     </div>
-                    <div class="card col-xl-4 col-md-6 col-xs-12" style="width: 18rem;">
-                        <img class="card-img-top" src="img/6.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Cinnabon</h5>
-                            <p class="card-text">₽ • Выпечка • Десерты • Капкейки</p>
-                            <p class="card-time">
-                                25 - 35 мин
+                    <div class="assortment__card col-xl-6 col-md-12 col-xs-12" ">
+                        <div class="assortment__card-body">
+                            <h5 class="assortment__card-title">Язык говяжий с хреном</h5>
+                            <p class="assortment__card-price">
+                                350 ₽
                             </p>
                         </div>
+                        <img class="food__card-img" src="img/Restaurant/1.6.png" alt="Card image cap">
                     </div>
-                    <div class="card col-xl-4 col-md-6 col-xs-12" style="width: 18rem;">
-                        <img class="card-img-top" src="img/7.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">PIZZELOVE</h5>
-                            <p class="card-text">₽₽ • Пицца</p>
-                            <p class="card-time">
-                                15 - 25 мин
-                            </p>
-                        </div>
-                    </div>
-                    <div class="card col-xl-4 col-md-6 col-xs-12" style="width: 18rem;">
-                        <img class="card-img-top" src="img/8.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Zю кафе — Тверская</h5>
-                            <p class="card-text">₽₽ • Японская</p>
-                            <p class="card-time">
-                                25 - 35 мин
-                            </p>
-                        </div>
-                    </div>
-                    <div class="card col-xl-4 col-md-6 col-xs-12" style="width: 18rem;">
-                        <img class="card-img-top" src="img/9.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Bar BQ Cafe — Манежная</h5>
-                            <p class="card-text">₽₽₽ • Европейская</p>
-                            <p class="card-time">
-                                30 - 40 мин
-                            </p>
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -168,14 +157,14 @@
                     </div>
                 </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-xs-8">
+                <div class="col-lg-4 col-md-4 col-sm-8">
                     <ul class="about-list left-list">
                         <li><a href="#" target="_blank">Об UberEats</a></li>
                         <li><a href="#" target="_blank">Станьте партнёром по доставке</a></li>
                         <li><a href="#" target="_blank">Станьте парнёром-рестораном</a></li>
                     </ul>
                 </div>
-                <div class="col-lg-2 col-md-2 col-xs-4">
+                <div class="col-lg-2 col-md-2 col-sm-4">
                     <ul class="about-list right-list">
                         <li><a href="#" target="_blank">Все города</a></li>
                         <li><a href="#" target="_blank">Цены</a></li>
@@ -188,7 +177,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="load-app d-flex col-lg-12 col-md-12 col-xs-12">
+                <div class="load-app d-flex col-lg-12 col-md-12 col-sm-12">
                     <img src="/img/App__store.svg" alt="col-lg-4 offset-lg-4 col-md-6 offset-md-3">
                     <img src="/img/google__play.svg" alt="">
                 </div>
@@ -199,19 +188,19 @@
                 </div>
             </div>
             <div class="privacy__policy row">
-                <div class="col-lg-3 col-md-3 col-xs-6">
+                <div class="col-lg-3 col-md-3 col-sm-6">
                     <p>© 2017 Uber Technologies Inc.</p>
                 </div>
-                <div class="privacy col-lg-3 offset-lg-1 col-md-3 offset-md-1 col-xs-8">
+                <div class="privacy col-lg-3 offset-lg-1 col-md-3 offset-md-1 col-sm-8">
                     <p>Обработка персональных данных</p>
                 </div>
-                <div class="col-lg-3 offset-lg-1 col-md-3 offset-md-1 col-xs-7">
+                <div class="col-lg-3 offset-lg-1 col-md-3 offset-md-1 col-sm-7">
                     <p>Пользовательское соглашение</p>
                 </div>
             </div>
         </div>
     </footer>
-    <a class="button-up" href="#search">
+    <a class="button-up" href="#restaurant__info" >
         <img src="/img/arrow.svg" alt="Arrow">
     </a>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

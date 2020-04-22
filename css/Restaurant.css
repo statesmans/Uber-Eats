@@ -1,0 +1,174 @@
+
+
+
+.card-main {
+    background-color: #fff;
+    padding: 0;
+    margin: 80px 0 80px 15px;
+}
+
+.restaurant__info {
+    padding: 34px 0 38px 38px;
+    align-items: center;
+    display: flex;
+}
+
+.restaurant__info p {
+    margin-bottom: 0;
+}
+
+.card-title {
+    padding: 38px 38px 0 38px;
+    font-size: 36px;
+}
+
+.card-text {
+    font-size: 14px;
+    padding: 0;
+}
+
+.card-time {
+    margin-left: 35px;
+    padding: 7px 16px;
+    background-color: #262626;
+    border-radius: 16px;
+    color: #fff;
+    font-size: 13px;
+}
+
+#filter {
+    border-bottom: 2px solid rgba(117, 117, 117, .2);;
+}
+
+.filter__menu {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 8px 0;
+    margin-bottom: 0;
+}
+
+.menu__item {
+    padding: 20px;
+    list-style-type: none;
+}
+
+.menu__item:first-child {
+    padding-left: 0;
+}
+
+.menu__item a {
+    color: #626262;
+}
+
+.menu__item a:hover {
+    color: #327430 ;
+}
+
+.assortment__block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.assortment__card {
+    display: flex;
+    justify-content: space-between;
+    max-width: 49.2%;
+    border: 1px solid rgba(117, 117, 117, .2);
+    padding: 0 0 0 15px;
+    border-radius: 2px;
+    margin-bottom: 50px;
+}
+
+.assortment__header {
+    font-size: 22px;
+    margin-top: 50px;
+}
+
+.assortment__card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.assortment__card-title {
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.assortment__card-text {
+    font-size: 13px;
+    color: #626262;
+}
+
+.assortment__card-price {
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .assortment__card {
+        max-width: none;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .assortment__card-title {
+        font-size: 0.9em;
+    }
+}
+
+@media all and (max-width: 679px) {
+    .card-title {
+        font-size: 23px;
+    }
+}
+
+@media all and (max-width: 665px) {
+    .menu__item {
+        padding: 2.2%;
+    }
+}
+
+@media all and (max-width: 576px) {
+    .card-title {
+        text-align: center;
+    }
+    .restaurant__info {
+        display: flex;
+        padding: 40px 0 24px 0;
+        flex-direction: column;
+    }
+    .restaurant__info p {
+        text-align: center;
+        margin-bottom: 16px;
+    }
+    .card-time {
+        margin: 0 auto;
+
+    }
+    .assortment__card {
+        padding-left: 0;
+        border: none;
+        border-bottom: 1px solid rgba(117, 117, 117, .2);
+        margin-bottom: 16px;
+    }
+    .assortment__card-title {
+        font-size: 14px;
+        margin-top: 0;
+    }
+    .assortment__card-text {
+        font-size: 13px;
+        margin-bottom: 0;
+    }
+    .food__card-img {
+        width: 35%;
+    }
+    .footer {
+        margin-top: 25px;
+    }
+}
