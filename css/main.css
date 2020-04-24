@@ -122,7 +122,7 @@ hr{
 }
 
 .select-lang::before {
-    content: url('img/world.svg');
+    content: url('../img/world.svg');
     pointer-events: none;
     position: absolute;
     top: 27%;
@@ -132,7 +132,7 @@ hr{
 }
 
 .select-lang::after {
-    content: url('img/Shape.png');
+    content: url('../img/Shape.png');
     pointer-events: none;
     position: absolute;
     right: 10px;
@@ -222,7 +222,7 @@ a:hover {
 /* Styles for restaurant card */
 
 #restaurant__info {
-    background: url('img/Restaurant-hero.png') no-repeat center top / cover;
+    background: url('../img/Restaurant-hero.png') no-repeat center top / cover;
 }
 
 .card__info {
