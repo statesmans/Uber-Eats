@@ -178,8 +178,14 @@ hr{
     margin-top: 23px;
 }
 
+
+.about-list a {
+    color: #fff;
+} 
+
+
 a {
-    color: #fff;   
+    color: #000;   
 }
 
 a:hover {
@@ -191,6 +197,10 @@ a:hover {
 .load-app {
     padding-bottom: 25px;
     justify-content: center;
+}
+
+.load-app img:hover {
+    cursor: pointer;
 }
 
 .load-app img:first-child{
