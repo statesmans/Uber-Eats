@@ -1,11 +1,5 @@
 # UBER-EATS
 
-
-
-
-
-Website develope by [layout](https://github.com/statesmans/Safari-tour/blob/master/psd/home%20(1).psd)
-
   - Responsive-adaptive site
   - Completelu writed on Bootstrap components
 
